@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(.)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp schedule.hpp)
 add_executable(${PROJECT_NAME}-ut tests/catch/catch_amalgamated.cpp tests/catch/catch_main.cpp tests/tests.cpp)
 add_executable(${PROJECT_NAME}-ut-bonus tests/catch/catch_amalgamated.cpp tests/catch/catch_main.cpp tests/tests-bonus.cpp)
 
